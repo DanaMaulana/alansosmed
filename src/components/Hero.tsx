@@ -27,7 +27,7 @@ const Hero = () => {
         </div>
 
         {/* Main Title */}
-        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 bg-gradient-to-r from-white via-purple-200 to-cyan-200 bg-clip-text text-transparent animate-fade-in">
+        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold py-4 mb-4 leading-tight bg-gradient-to-r from-white via-purple-200 to-cyan-200 bg-clip-text text-transparent animate-fade-in">
           Gaming Creator
         </h1>
         
