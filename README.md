@@ -62,3 +62,6 @@ Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-trick
 - Kemudian lakukan pemanggilan kepada berkas tersebut dengan cara menuliskan kode kedalam index.html :
   - <meta property="og:image" content="https://alansosmed.vercel.app/logo_am.png" />
   - <meta name="twitter:image" content="https://alansosmed.vercel.app/logo_am.png" />
+- Untuk author dan deskripsi saat membagikan file anda bisa gunakan sesuaikan dengan nama yang anda inginkan :
+  - <meta property="og:title" content="name" />
+  - <meta property="og:description" content="example desc name" />
