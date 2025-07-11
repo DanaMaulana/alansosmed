@@ -12,7 +12,7 @@ const Footer = () => {
               <Gamepad2 className="w-6 h-6 text-white" />
             </div>
             <span className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-cyan-400 bg-clip-text text-transparent">
-              Gaming Creator
+              Alan Maulana
             </span>
           </div>
           <p className="text-gray-400 max-w-md mx-auto">
@@ -34,7 +34,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="pt-8 border-t border-slate-800">
           <div className="flex items-center justify-center gap-2 text-gray-400">
-            <span>© 2024 Gaming Creator. Made with</span>
+            <span>© 2025 Alan Maulana. Made with</span>
             <Heart className="w-4 h-4 text-red-500 fill-current" />
             <span>for the gaming community</span>
           </div>

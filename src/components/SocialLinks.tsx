@@ -12,7 +12,7 @@ const SocialLinks = () => {
       description: "Gaming videos, tutorials, dan live streams",
       color: "from-red-500 to-red-600",
       hoverColor: "hover:from-red-600 hover:to-red-700",
-      url: "#"
+      url: "https://www.youtube.com/channel/UCqAgWDVXsXu3wOAGW8jL8rg"
     },
     {
       name: "TikTok",
@@ -21,7 +21,7 @@ const SocialLinks = () => {
       description: "Short gaming content dan highlights",
       color: "from-pink-500 to-purple-600",
       hoverColor: "hover:from-pink-600 hover:to-purple-700",
-      url: "#"
+      url: "https://www.tiktok.com/@alanmaulana1224"
     },
     {
       name: "Instagram",
@@ -30,7 +30,7 @@ const SocialLinks = () => {
       description: "Behind the scenes dan gaming lifestyle",
       color: "from-purple-500 to-pink-500",
       hoverColor: "hover:from-purple-600 hover:to-pink-600",
-      url: "#"
+      url: "https://www.instagram.com/_alan9_9/"
     },
     {
       name: "Twitter",
@@ -39,17 +39,17 @@ const SocialLinks = () => {
       description: "Gaming updates dan community interaction",
       color: "from-blue-400 to-blue-600",
       hoverColor: "hover:from-blue-500 hover:to-blue-700",
-      url: "#"
+      url: "https://x.com/DanaMaulanaDev"
     },
-    {
-      name: "Twitch",
-      icon: Twitch,
-      followers: "8K+ Followers",
-      description: "Live gaming streams",
-      color: "from-purple-600 to-indigo-600",
-      hoverColor: "hover:from-purple-700 hover:to-indigo-700",
-      url: "#"
-    }
+    // {
+    //   name: "Twitch",
+    //   icon: Twitch,
+    //   followers: "8K+ Followers",
+    //   description: "Live gaming streams",
+    //   color: "from-purple-600 to-indigo-600",
+    //   hoverColor: "hover:from-purple-700 hover:to-indigo-700",
+    //   url: "#"
+    // }
   ];
 
   return (
@@ -96,24 +96,21 @@ const SocialLinks = () => {
 
         {/* Quick Links */}
         <div className="text-center">
-          <Card className="bg-gradient-to-r from-slate-800/50 to-slate-900/50 border-slate-700 backdrop-blur-sm inline-block">
+          <Card className="bg-slate-800/50 border-slate-700 backdrop-blur-sm hover:bg-slate-800/70 transition-all duration-300 transform hover:scale-105 hover:border-purple-500/50">
             <CardContent className="p-8">
               <h3 className="text-2xl font-bold text-white mb-4">Quick Links</h3>
               <div className="flex flex-wrap justify-center gap-4">
                 <Button variant="outline" className="border-red-500 text-red-400 hover:bg-red-500 hover:text-white">
-                  YouTube
+                  <a href="https://www.youtube.com/channel/UCqAgWDVXsXu3wOAGW8jL8rg" target='_blank'>YouTube</a>
                 </Button>
                 <Button variant="outline" className="border-pink-500 text-pink-400 hover:bg-pink-500 hover:text-white">
-                  TikTok
+                  <a href="https://www.tiktok.com/@alanmaulana1224" target='_blank'>TikTok</a>
                 </Button>
                 <Button variant="outline" className="border-purple-500 text-purple-400 hover:bg-purple-500 hover:text-white">
-                  Instagram
+                  <a href="https://www.instagram.com/_alan9_9/" target='_blank'>Instagram</a>
                 </Button>
                 <Button variant="outline" className="border-blue-500 text-blue-400 hover:bg-blue-500 hover:text-white">
-                  Twitter
-                </Button>
-                <Button variant="outline" className="border-indigo-500 text-indigo-400 hover:bg-indigo-500 hover:text-white">
-                  Twitch
+                  <a href="https://x.com/DanaMaulanaDev" target='_blank'>Twitter</a>
                 </Button>
               </div>
             </CardContent>

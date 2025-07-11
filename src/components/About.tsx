@@ -22,7 +22,7 @@ const About = () => {
     {
       icon: Zap,
       title: "Horror Games",
-      description: "Berani menghadapi game horror untuk konten yang menghibur"
+      description: ""
     }
   ];
 
@@ -97,7 +97,7 @@ const About = () => {
       <div className="max-w-6xl mx-auto">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-purple-400 to-cyan-400 bg-clip-text text-transparent">
+          <h2 className="text-4xl md:text-5xl font-bold py-4 mb-4 leading-tight bg-gradient-to-r from-purple-400 to-cyan-400 bg-clip-text text-transparent">
             Tentang Saya
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto leading-relaxed">
@@ -134,7 +134,7 @@ const About = () => {
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {stats.map((stat, index) => (
-              <Card key={index} className="bg-gradient-to-br from-slate-800/60 to-slate-900/60 border-slate-700 backdrop-blur-sm hover:border-purple-500/50 transition-all duration-300">
+              <Card key={index} className="bg-slate-800/50 border-slate-700 backdrop-blur-sm hover:bg-slate-800/70 transition-all duration-300 transform hover:scale-105 hover:border-purple-500/50">
                 <CardContent className="p-6 text-center">
                   <div className="mb-4 inline-flex items-center justify-center w-12 h-12 bg-gradient-to-r from-purple-600 to-cyan-600 rounded-full">
                     <stat.icon className="w-6 h-6 text-white" />

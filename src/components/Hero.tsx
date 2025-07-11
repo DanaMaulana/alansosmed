@@ -1,6 +1,7 @@
 
 import { Play, Users, Heart } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import logoAm from '@/assets/logo_am.png';
 
 const Hero = () => {
   return (
@@ -18,7 +19,8 @@ const Hero = () => {
         <div className="mb-8 relative inline-block">
           <div className="w-32 h-32 md:w-40 md:h-40 rounded-full bg-gradient-to-r from-purple-500 via-cyan-500 to-pink-500 p-1 animate-spin-slow">
             <div className="w-full h-full rounded-full bg-slate-800 flex items-center justify-center">
-              <Users className="w-16 h-16 md:w-20 md:h-20 text-white" />
+              {/* <Users className="w-16 h-16 md:w-20 md:h-20 text-white" /> */}
+              <img src={logoAm} alt="Alan Maulana Logo" className="w-full h-full rounded-full object-cover" />
             </div>
           </div>
           <div className="absolute -bottom-2 -right-2 w-8 h-8 bg-green-500 rounded-full border-4 border-slate-900 flex items-center justify-center">
@@ -27,8 +29,8 @@ const Hero = () => {
         </div>
 
         {/* Main Title */}
-        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 bg-gradient-to-r from-white via-purple-200 to-cyan-200 bg-clip-text text-transparent animate-fade-in">
-          Gaming Creator
+        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold py-4 mb-4 leading-tight bg-gradient-to-r from-white via-purple-200 to-cyan-200 bg-clip-text text-transparent animate-fade-in">
+          Alan Maulana
         </h1>
         
         {/* Subtitle */}
@@ -73,10 +75,10 @@ const Hero = () => {
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in delay-700">
           <Button className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white px-8 py-3 text-lg font-semibold transition-all duration-300 transform hover:scale-105">
-            Watch My Streams
+            <a href="https://www.youtube.com/channel/UCqAgWDVXsXu3wOAGW8jL8rg" target='_blank'>Watch My Streams</a>
           </Button>
           <Button variant="outline" className="border-2 border-cyan-400 text-cyan-400 bg-transparent hover:bg-cyan-400 hover:text-slate-900 px-8 py-3 text-lg font-semibold transition-all duration-300 transform hover:scale-105">
-            Follow Me
+            <a href="https://www.tiktok.com/@alanmaulana1224" target='_blank'>Follow Me</a>
           </Button>
         </div>
       </div>
